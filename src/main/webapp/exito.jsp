@@ -1,7 +1,7 @@
 <%-- 
     Document   : exito
     Created on : 15/10/2020, 9:04:28 p. m.
-    Author     : SANDRA
+    Author     : Sandra Moreno - Jhonattan Pulido
 --%>
 
 

@@ -1,7 +1,7 @@
 <%-- 
     Document   : errorCampos
     Created on : 15/10/2020, 8:52:44 p. m.
-    Author     : SANDRA
+    Author     : Sandra Moreno - Jhonattan Pulido
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>

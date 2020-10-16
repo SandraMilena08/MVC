@@ -1,23 +1,37 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modelo;
 
 /**
- *
- * @author SANDRA
+ * Clase persona
+ * @author Sandra Moreno - Jhonattan Pulido
+ * @since 15/10/2020
+ * @version 1.0.0
  */
 public class Persona {
+    
+    // Variables
+    
+    /**
+     * Nombre de la persona
+     */
     private String nombre;
+    
+    /**
+     * Edad de la persona
+     */
     private short edad;
 
+    /**
+     * Constructor de la clase Persona
+     * @param nombre
+     * @param edad 
+     */
     public Persona(String nombre, short edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
 
+    // Métodos Set & Get
+    
     public String getNombre() {
         return nombre;
     }

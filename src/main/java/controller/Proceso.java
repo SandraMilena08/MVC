@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package controller;
 
 import java.io.IOException;
@@ -14,8 +9,10 @@ import javax.servlet.http.HttpServletResponse;
 import modelo.Persona;
 
 /**
- *
- * @author SANDRA
+ * Controlador
+ * @author Sandra Moreno - Jhonattan Pulido
+ * @version 1.0.0
+ * @since 15/10/2020
  */
 public class Proceso extends HttpServlet {
 
