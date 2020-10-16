@@ -20,5 +20,6 @@
         <h1>Escritos con exito</h1>
         <p>Nombre: <%= p1.getNombre() %></p>
         <p>Edad: <%= p1.getEdad() %> </p>
+        <a href="index.jsp">Volver</a>
     </body>
 </html>
