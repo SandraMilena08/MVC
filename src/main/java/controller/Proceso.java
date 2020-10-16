@@ -34,6 +34,8 @@ public class Proceso extends HttpServlet {
        
        if(nombre.equals("") || edad.equals("")){
            request.getRequestDispatcher("errorCampos.jsp").forward(request, response);
+       }else{
+           request.getRequestDispatcher("exito.jsp").forward(request, response);
        }
     }
 
