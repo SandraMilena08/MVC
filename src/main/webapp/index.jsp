@@ -12,6 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Formulario</h1>
+        <form action="proceso.do" method="post">
+            Nombre: <input type="text" name="INombre"/><br/>
+            Edad: <input type="text" name="IEdad"/><br/>
+            <input type="submit" value="Enviar datos" />
+        </form>
     </body>
 </html>
