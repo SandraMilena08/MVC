@@ -4,6 +4,11 @@
     Author     : SANDRA
 --%>
 
+
+<%@page import="modelo.Persona"%>
+<%
+    Persona p1 = (Persona)request.getSession().getAttribute("persona1");
+%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,6 +17,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Escritos con exito</h1>
+        <p>Nombre: <%= p1.getNombre() %></p>
+        <p>Edad: <%= p1.getEdad() %> </p>
     </body>
 </html>

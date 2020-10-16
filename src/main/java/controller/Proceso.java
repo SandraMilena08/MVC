@@ -11,6 +11,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import modelo.Persona;
 
 /**
  *
@@ -35,6 +36,10 @@ public class Proceso extends HttpServlet {
        if(nombre.equals("") || edad.equals("")){
            request.getRequestDispatcher("errorCampos.jsp").forward(request, response);
        }else{
+           short edadUno = Short.parseShort(edad);
+           
+           Persona p1 = new Persona(nombre,edadUno);
+           request.getSession().setAttribute("persona1", p1);
            request.getRequestDispatcher("exito.jsp").forward(request, response);
        }
     }
